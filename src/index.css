@@ -6,12 +6,19 @@
 
 body{
   font-size: sans-serif;
+  /*background-image: url("./img/back.png");*/
+
 }
+
+
 
 .app{
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items:unset;
   flex-direction: column;
+  max-width: 800px;
+
+
 }
